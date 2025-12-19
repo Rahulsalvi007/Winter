@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(181, 214, 214);
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar h1 {
+    padding: 20px;
+    position: absolute;
+    padding-top: 15px;
+}
+
+.navbar .link {
+    margin-left: 60%;
+    display: inline-flex;
+}
+
+
+.link a {
+    color: black;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+    display: inline;
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/01/77/10/92/1000_F_177109294_9AsorlntiFaQy43WpZlr1gw00AlQq08q.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+
+}
+
+.section1 h1 {
+    color: black;
+    text-align: center;
+    align-content: center;
+    font-size: 80px;
+    padding-top: 100px;
+    top: 20px;
+}
+
+.section1 p {
+    padding-top: 10px;
+    color: black;
+    font-size: 26px;
+}
+
+.navbar2 {
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+    height: 50px;
+}
+
+.navbar2 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline;
+    padding-left: 50px;
+}
+
+.all,
+.Landscapes,
+.Udaipur,
+.Chittorgarh,
+.kashmir {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 2%;
+    gap: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+/* .img:hover{
+    transform: scale(1.03);
+} */
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+.about {
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow-wrap: anywhere;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.details {
+    padding-top: 30px;
+    display: flex;
+}
+
+.details img {
+    width: 40%;
+    padding-left: 30px;
+    height: 40%;
+}
+
+.details p {
+    font-size: 20px;
+    padding-left: 10%;
+    text-align: justify;
+    width: 50%;
+}
+
+.box h1 {
+    font-size: 30px;
+}
+
+.achievement {
+    /* background-color: rgb(133, 210, 210); */
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding-right: 15%;
+}
+
+.box {
+    background-color: rgb(197, 232, 232);
+    margin: 20px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    align-content: center;
+    padding-right: 30px;
+}
+
+.box h1 {
+    padding-right: 20%;
+    text-align: right;
+
+}
+
+.box p {
+    padding-right: 20px;
+    text-align: right;
+}
+
+.Contact {
+    padding: 30px;
+}
+
+.Contact h1 {
+    font-size: 50px;
+}
+
+.Contact p {
+    text-align: center;
+    margin: 25px;
+    font-size: 22px;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.form input {
+
+    width: 60%;
+    height: 40px;
+}
+
+.form label {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 55%;
+}
+
+.form button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(81, 109, 109);
+    font-size: 22px;
+    margin-top: 20px;
+    width: 60%;
+    height: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
